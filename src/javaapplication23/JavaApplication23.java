@@ -27,7 +27,7 @@ public class JavaApplication23 {
 			bf = new BufferedReader(ir);
 			String line=null;
                         
-			while((line = bf.readLine()) != null) {
+			while((line = bf.readLine()) != null) {//czytanie z pliku
 				line=line.replaceAll(",", ".");
 				String rozdziel[]=line.split("[;)\\[\\|]");
                                 int i=1;		
